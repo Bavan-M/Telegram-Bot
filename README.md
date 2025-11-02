@@ -29,12 +29,20 @@ This bot supports clearing previous conversation context and provides basic help
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/telegram-chatgpt-bot.git
-cd telegram-chatgpt-bot
+git clone https://github.com/Bavan-M/Telegram-Bot
+```
 
-python -m venv venv
-venv\Scripts\activate       # On Windows
+---
+
+2. **Execute the commands**
+```bash
+python -m venv telebot
+```
+```bash
+.\telebot\Scripts\activate     
+```
+```bash
+pip install -r requirements.txt
+```
 
 
-OPENAI_API_KEY=your_openai_api_key_here
-TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
